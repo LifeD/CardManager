@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add">Добавить</string>
+    <string name="show">Показать</string>
+    <string name="name">Название</string>
+    <string name="status">Статус</string>
+    <string name="discount">Скидка</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="card_types">Типы карт</string>
+    <string name="cards">Карты</string>
+    <string name="adding_card_type">Добавление типа карты</string>
+    <string name="editing_card_type">Редактирование типа карты</string>
+    <string name="save">Сохранить</string>
+    <string name="holder">Владелец</string>
+    <string name="number">Номер</string>
+    <string name="adding_card">Добавление карты</string>
+    <string name="editing_card">Редактирование карты</string>
+    <string name="drop">Очистить БД</string>
+    <string name="first_add_card_type">Необходим хотя бы один тип карт. Добавить?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="delete_item">Удалить запись?</string>
+    <string name="delete_all_cards_of_this_type">Сначала удалите все карты этого типа</string>
+    <string name="error">Ошибка</string>
+    <string name="item_not_deleted">Запись не удалена</string>
+    <string name="item_not_deleted_because_cards_uses_this_type">Запись не удалена, так как некоторые карты еще используют этот тип карт</string>
+    <string name="error_while_insert_data">Ошибка записи данных</string>
+    <string name="error_while_update_data">Ошибка обновления данных</string>
+    <string name="discount_values">Скидка должна быть от 0 до 100 процентов</string>
+    <string name="name_values">Название должно состоять как минимум из 2 символов</string>
+    <string name="number_values">Номер карты не может быть пустым</string>
+    <string name="drop_database">Вы действительно хотите очистить базу данных?</string>
+    <string name="database_was_dropped">База данных очищена</string>
+    <string name="delete_all_cards">Удалить все карты</string>
+    <string name="cards_was_deleted">Карты удалены</string>
+    <string name="delete_all_cards_really">Вы дйествительно хотите удалить все карты?</string>
+    <string name="app_name" translatable="false">Менеджер карт</string>
+    <string name="nothing_to_show">Список пуст. Нажмите на +, чтобы добавить запись.</string>
+</resources>

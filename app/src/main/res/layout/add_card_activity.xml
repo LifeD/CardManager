@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_below="@+id/toolbar"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number"/>
+
+    <EditText
+        android:id="@+id/et_holder"
+        android:layout_below="@id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/holder"/>
+
+    <Spinner
+        android:id="@+id/spinner_card_types"
+        android:layout_below="@id/et_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_below="@id/spinner_card_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        style="@style/MyButton"/>
+
+</RelativeLayout>
